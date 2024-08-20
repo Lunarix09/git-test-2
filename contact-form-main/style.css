@@ -180,7 +180,7 @@ button[type="submit"]:active{background-color: hsl(187, 24%, 22%);}
 @media screen and (max-width:450px){
     .form_container{
         position: absolute;
-        left: 1%;
+        left: 5%;
         width: 90%;
         height: 625px;
         padding: 8px;
