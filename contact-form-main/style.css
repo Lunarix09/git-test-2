@@ -75,7 +75,7 @@ placeholder{color: hsl(186, 15%, 59%);}
 #last_name{
     height: 35px;
     width: 100%;
-    border: 1.25px solid hsl(186, 15%, 59%);
+    border: 1.5px solid hsl(186, 15%, 59%);
     border-radius: 5px;
 }
 #last_name:focus{border-color: hsl(169, 82%, 27%);}
@@ -83,7 +83,7 @@ placeholder{color: hsl(186, 15%, 59%);}
 #email{
     height: 35px;
     width: 100%;
-    border: 1.25px solid hsl(186, 15%, 59%);
+    border: 1.5px solid hsl(186, 15%, 59%);
     border-radius: 5px;
 }
 #email:focus{border-color: hsl(169, 82%, 27%);}
@@ -103,7 +103,7 @@ placeholder{color: hsl(186, 15%, 59%);}
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1.25px solid hsl(186, 15%, 59%);
+    border: 1.5px solid hsl(186, 15%, 59%);
     border-radius: 5px;
 }
 .query_type_container_1 .radio_1{grid-column: 1;}
