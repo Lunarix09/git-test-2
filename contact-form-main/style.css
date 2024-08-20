@@ -182,13 +182,13 @@ button[type="submit"]:active{background-color: hsl(187, 24%, 22%);}
         position: absolute;
         left: 5%;
         width: 90%;
-        height: 625px;
+        height: 650px;
         padding: 8px;
     }
     form{
         display: grid;
         grid-template-columns: 90%;
-        grid-template-rows: 11% 11% 11% 20% 21% 25px 45px;
+        grid-template-rows: 11% 11% 11% 20% 21% 50px 45px;
         grid-gap: 12px;
         width: 100%;
     }
