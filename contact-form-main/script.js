@@ -19,6 +19,9 @@ document.querySelector('button[type="submit"]').addEventListener("click", (event
         document.querySelector("#message").style.borderColor="hsl(0, 66%, 54%)";
         document.querySelector(".message_container .p_error").style.display="block";
     };
+    if (document.querySelector('input[type="checkbox"]').checked === false) {
+        document.querySelector(".consent_1 .p_error").style.display="block";
+    }
     if (document.querySelector("#general_enquiry").checked === false && document.querySelector("#support_request").checked === false) {
         document.querySelector(".query_type_container_1 .p_error").style.display="block";
     };
@@ -90,3 +93,7 @@ document.querySelector("#message").addEventListener("change", ()=>{
         document.querySelector(".message_container .p_error").style.display="none";
     }
 });
+document.querySelector('input[type="checkbox"]').addEventListener("change", ()=>{
+    if (document.querySelector('input[type="checkbox"]').checked === true) {
+        document.querySelector(".consent_1 .p_error").style.display="none";}
+})
