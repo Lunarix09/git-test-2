@@ -77,6 +77,8 @@ document.querySelector(".radio_1").addEventListener("click", ()=>{
     document.querySelector(".radio_2 label").style.color="hsl(186, 15%, 59%)";
     document.querySelector(".radio_2").style.backgroundColor="transparent";
     query_type= document.querySelector("#general_enquiry").value;
+    document.querySelector(".radio_1").style.borderColor="hsl(169, 82%, 27%)";
+    document.querySelector(".radio_2").style.borderColor="hsl(186, 15%, 59%)";
 });
 
 document.querySelector(".radio_2").addEventListener("click", ()=>{
@@ -86,6 +88,8 @@ document.querySelector(".radio_2").addEventListener("click", ()=>{
     document.querySelector(".radio_1").style.backgroundColor="transparent";
     document.querySelector(".radio_2 label").style.color="hsl(169, 82%, 27%)";
     document.querySelector(".radio_1 label").style.color="hsl(186, 15%, 59%)";
+    document.querySelector(".radio_2").style.borderColor="hsl(169, 82%, 27%)";
+    document.querySelector(".radio_1").style.borderColor="hsl(186, 15%, 59%)";
 });
 document.querySelector("#message").addEventListener("change", ()=>{
     if (document.querySelector("#message").value !== "") {
