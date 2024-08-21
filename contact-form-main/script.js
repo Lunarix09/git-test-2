@@ -50,7 +50,7 @@ document.querySelector('button[type="submit"]').addEventListener("click", (event
         document.querySelector(".form_container").style.height= "88%";
         document.querySelector(".form_container").style.top= "6%";
         if (window.innerWidth < 451) {
-            document.querySelector(".form_container").style.height= "690px";
+            document.querySelector(".form_container").style.height= "730px";
             document.querySelector(".form_container").style.top= "5px";
         }
     }
