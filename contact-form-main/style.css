@@ -12,10 +12,10 @@ body{
 }
 .form_container{
     position: absolute;
-    top: 7.5%;
+    top: 10%;
     left: 10%;
     width: 80%;
-    height: 85%;
+    height: 80%;
     background-color: hsl(0, 0%, 100%);
     padding: 10px;
     border-radius: 12px;
