@@ -46,7 +46,13 @@ document.querySelector('button[type="submit"]').addEventListener("click", (event
                 }, 5000);
             }, 3000);
         }sending_message(email_address,query_type, consentment , last_name,first_name , message);
-    }
+    }else{
+        document.querySelector(".form_container").style.height= "88%";
+        document.querySelector(".form_container").style.top= "6%";
+        if (window.innerWidth < 451) {
+            document.querySelector(".form_container").style.height= "690px";
+            document.querySelector(".form_container").style.top= "5px";
+        }
 });
 
 let query_type= "";
