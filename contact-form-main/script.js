@@ -53,6 +53,7 @@ document.querySelector('button[type="submit"]').addEventListener("click", (event
             document.querySelector(".form_container").style.height= "690px";
             document.querySelector(".form_container").style.top= "5px";
         }
+    }
 });
 
 let query_type= "";
